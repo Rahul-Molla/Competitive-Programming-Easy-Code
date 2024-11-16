@@ -4,7 +4,7 @@
 using namespace std; // Using the standard namespace
 
 void three_largest (int arr[], int arr_size){
-	int i, first, second, third;
+	int i, first, second;
 	if(arr_size < 3){ // Checking if the array has less than 3 elements  
 		cout << "Invalid Input";
 	}
@@ -24,7 +24,7 @@ void three_largest (int arr[], int arr_size){
 	else{
 		cout << "\nThe Second largest element is ::" << second; 
 	}
-
+}
 int main(){
 	// int nums[] = { 7, 12, 9, 15, 19, 32, 56, 70 };
 	int s;
